@@ -4,5 +4,5 @@
 ### Chen Luo
 ### Aaron Pagoado
 ### Phaola Ventura
-### Viktoria Takshaitova
+### Viktoriia Takshaitova
 ### Otabek Odilov
