@@ -1,8 +1,8 @@
 # Web page for a movie theatre
-## Team members : 
+## Team members: 
 ### Annie He
 ### Chen Luo
-### Aaron Pagoado
+### Aaron Pagoada
 ### Phaola Ventura
 ### Viktoriia Takshaitova
 ### Otabek Odilov
