@@ -23,7 +23,7 @@ const VunueNfo = ()=>{
                                 }}
                                 > </div>
                                 <div className="vn_title">
-                                    Premiere Date $ Time
+                                    Premiere Date & Time
                                 </div>
                                 <div className="vn_desc">
                                     14 February 2021 @12:00 pm
