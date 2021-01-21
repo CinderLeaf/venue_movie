@@ -2,7 +2,7 @@
 ## Team members : 
 ### Annie He
 ### Chen Luo
-### Aaron Pagoado
+### Aaron Pagoada
 ### Phaola Ventura
 ### Viktoriia Takshaitova
 ### Otabek Odilov
