@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
 
 body {
     padding:0;
@@ -43,7 +44,7 @@ body {
 .event_name {
     position: absolute;
     border: solid white 2px;
-    top: 40%;
+    top: 35%;
     left: 40%;
     color: white;
     width: 20%;
@@ -242,12 +243,15 @@ footer .footer_copyright {
         HIGHLIGHTS
 ======================*/
 
-
 .highlight_wrapper h2 {
     text-align: center;
     text-transform: uppercase;
     color:#2c2c2c;
     font-size: 52px;
+}
+
+.highlight_title {
+    margin-top: 30px;
 }
 
 .highlight_wrapper .highlight_description {
@@ -257,6 +261,7 @@ footer .footer_copyright {
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
     padding: 30px 0px;
+    margin-bottom: 20px;
 }
 
 .discount_wrapper {
@@ -383,10 +388,107 @@ footer .footer_copyright {
     padding: 15px 20px;
     text-align: center;
 }
-#video{
-    display:flex;
+
+/*====================
+        MOVIES   
+======================*/
+
+.video2_wrapper {
+    margin-top: 200px;
+}
+
+#video1{
+    display: flex;
     margin:center;
-    width:100%;
-    height:445px;
-    
+    width:420px;
+    height:300px; 
+    float: left; 
+}
+#video1_text {
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-bottom: 10rem;
+    border-radius: 8px;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+}
+
+#video2{
+    display: flex;
+    margin:center;
+    width:420px;
+    height:300px; 
+}
+#video2_text {
+    float: left; 
+    margin-right: 120px;
+    border-radius: 8px;
+    margin-bottom: 10rem;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+}
+
+#video3{
+    display: flex;
+    margin:center;
+    width:420px;
+    height:300px; 
+    float: left; 
+}
+#video3_text {
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-bottom: 16rem;
+    border-radius: 8px;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+}
+
+.video4_wrapper {
+    margin-bottom: 40rem;
+}
+#video4{
+    display: flex;
+    margin:center;
+    width:420px;
+    height:300px; 
+    float: right;
+}
+#video4_text {
+    float: left; 
+    margin-right: 83px;
+    border-radius: 8px;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+}
+
+
+/*====================
+        CONTACT    
+======================*/
+.contact_wrapper {
+    margin: auto;
+    width: 50%;
+    color: white;
+    padding: 20px;
+    padding-top: 70px;
+}
+
+.contact_title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
 }
