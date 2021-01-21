@@ -11,6 +11,7 @@ import Location from './components/location';
 import Footer from './components/header_footer/Footer';
 import Scroll_up from './components/scroll_up';
 import Contact from './components/contact';
+import TopButton from './components/backtop';
 
 class App extends Component {
   render(){
@@ -42,18 +43,24 @@ class App extends Component {
       <Contact/>
       </Element>
 
+<<<<<<< HEAD
       <Element name="scroll_up">
       <Scroll_up/>
       </Element>
 
 
 
+=======
+      <Element name="backtop">
+      <TopButton/>
+      </Element>
+>>>>>>> 657c7709bfd69cd8d4bcd03363ea68734a8e2697
       <Footer/>
       
       </div>
     );
   }
-}
+};
 
 export default App;
 
