@@ -9,7 +9,7 @@ const Featured = () => {
             <Carrousel/>
 
             <div className="event_name">
-                <div className="wrapper">
+                <div className="event_wrapper">
                    Movie Premiere
                 </div>
             </div>

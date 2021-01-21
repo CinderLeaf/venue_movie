@@ -6,7 +6,7 @@ body {
 }
 
 .font_righteous {
-    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .bck_black {
@@ -35,6 +35,25 @@ body {
 .center_wrapper {
     width: 900px;
     margin:0 auto;
+}
+
+/*====================
+        TITLE
+======================*/
+.event_name {
+    position: absolute;
+    border: solid white 2px;
+    top: 40%;
+    left: 40%;
+    color: white;
+    width: 20%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.event_wrapper {
+    margin: 4px;
+    border: solid white 2px;
 }
 
 
@@ -243,6 +262,7 @@ footer .footer_copyright {
 .discount_wrapper {
     display: flex;
     padding: 70px 0px;
+    margin-left: 150px;
 }
 
 .discount_wrapper .discount_porcentage {
