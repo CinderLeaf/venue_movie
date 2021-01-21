@@ -4,8 +4,8 @@ import Zoom from 'react-reveal/Zoom';
 
  class Pricing extends Component {
 state = {
-    prices:[10,7,5],
-    positions:[ 'Adults  and Seniors','Children under 12','Super Tuesdays'],
+    prices:[20,12,10],
+    positions:[ 'Adults  and Seniors','Children under 12','Super Wednesday'],
     desc:[
         '',
         '',
