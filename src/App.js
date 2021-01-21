@@ -10,6 +10,7 @@ import Pricing from './components/pricing';
 import Location from './components/location';
 import Footer from './components/header_footer/Footer';
 import Contact from './components/contact';
+import TopButton from './components/backtop';
 
 class App extends Component {
   render(){
@@ -41,12 +42,15 @@ class App extends Component {
       <Contact/>
       </Element>
 
+      <Element name="backtop">
+      <TopButton/>
+      </Element>
       <Footer/>
       
       </div>
     );
   }
-}
+};
 
 export default App;
 
