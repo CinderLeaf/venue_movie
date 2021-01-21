@@ -9,6 +9,7 @@ import Highlight from './components/Highlights';
 import Pricing from './components/pricing';
 import Location from './components/location';
 import Footer from './components/header_footer/Footer';
+import Scroll_up from './components/scroll_up';
 import Contact from './components/contact';
 
 class App extends Component {
@@ -40,6 +41,12 @@ class App extends Component {
       <Element name="contact">
       <Contact/>
       </Element>
+
+      <Element name="scroll_up">
+      <Scroll_up/>
+      </Element>
+
+
 
       <Footer/>
       
