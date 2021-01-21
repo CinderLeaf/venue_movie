@@ -10,7 +10,7 @@ const Featured = () => {
 
             <div className="event_name">
                 <div className="event_wrapper">
-                   Movie Premiere
+                Outdoor Movie Night
                 </div>
             </div>
 
