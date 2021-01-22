@@ -5,9 +5,9 @@ const Footer = () => {
     return(
         <footer className="bck_reds">
             <Fade delay={500}>
-                <div className="font_righteous footer_logo_venue"> Your Movie Theater</div>
+                <div className="font_righteous footer_logo_venue">Outdoor Movie Night</div>
                 <div className="footer_copyright">
-                    The Best Movie Theater. All rights reserved.
+                    The Best and Relaxing Movie Experience Ever. All rights reserved.
                 </div>
             </Fade>
         </footer>
