@@ -49,7 +49,7 @@ if (window.scrollY > 0){
             <Toolbar>
 
 <div className="header_logo">
-    <div className="font_righteous header_logo_venue">Movie Night</div>
+    <div className="font_righteous header_logo_venue">Outdoor Movie Night</div>
     <div className = "header_logo_title">The Best Movies</div>
 </div>
 
