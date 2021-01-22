@@ -8,7 +8,7 @@ body {
 }
 
 .font_righteous {
-    font-family: 'Caveat', cursive;;
+    font-family: 'Caveat', cursive;
 }
 
 .bck_black {
@@ -46,7 +46,7 @@ body {
     position: absolute;
     border: solid white 2px;
     top: 35%;
-    left: 40%;
+    left: 40.5%;
     color: white;
     width: 20%;
     font-size: 35px;
@@ -88,6 +88,7 @@ header .header_logo_title {
 ======================*/
 
 footer {
+    padding-top: -10px;
     padding:50px 0px;
     text-align: center;
     font-size: 60px;
@@ -97,6 +98,11 @@ footer {
 
 footer .footer_copyright {
     font-size: 18px;
+}
+
+
+.sideDrawer {
+    background-color: red;
 }
 
 /*====================
@@ -253,11 +259,12 @@ footer .footer_copyright {
     text-align: center;
     text-transform: uppercase;
     color:#2c2c2c;
-    font-size: 52px;
+    font-size: 60px;
 }
 
 .highlight_title {
-    margin-top: 30px;
+    margin-top: 40px;
+    font-family: 'Caveat', cursive;
 }
 
 .highlight_wrapper .highlight_description {

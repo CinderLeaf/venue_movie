@@ -1,3 +1,4 @@
+import { Facebook } from '@material-ui/icons';
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
