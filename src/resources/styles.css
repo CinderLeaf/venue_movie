@@ -55,6 +55,11 @@ body {
 .event_wrapper {
     margin: 4px;
     border: solid white 2px;
+    background-color: rgba(0, 0, 0, 0.767);
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 15px;
 }
 
 
