@@ -11,6 +11,7 @@ import Location from './components/location';
 import Footer from './components/header_footer/Footer';
 import Scroll_up from './components/scroll_up';
 import Contact from './components/contact';
+import TopButton from './components/backtop';
 
 class App extends Component {
   render(){
@@ -42,53 +43,14 @@ class App extends Component {
       <Contact/>
       </Element>
 
-      <Element name="scroll_up">
-      <Scroll_up/>
+      <Element name="backtop">
+      <TopButton/>
       </Element>
-
-
-
       <Footer/>
       
       </div>
     );
   }
-}
+};
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
